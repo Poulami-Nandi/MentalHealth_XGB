@@ -196,7 +196,7 @@ submission.to_csv("submission.csv", index=False)
 
 Feel free to reach out if you have any questions or suggestions:
 
-- **Email**: [your-email@example.com](mailto:nandi.poulami91@gmail.com)
+- **Email**: [Dr. Poulami Nandi](mailto:nandi.poulami91@gmail.com)
 - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/poulami-nandi-a8a12917b/)
 
 ---
