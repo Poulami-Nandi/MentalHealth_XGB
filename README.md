@@ -1,7 +1,7 @@
 
-# **Kaggle Playground Series - Season 4, Episode 11**
+# **Mental Health data analysis**
 
-This repository contains a solution for the Kaggle competition **Playground Series - Season 4, Episode 11**, which involves predicting outcomes using a Gradient Boosting model (XGBoost). The project follows a structured approach to preprocess data, explore patterns, train the model, and generate predictions.
+This repository contains a solution for the Kaggle competition **Mental health data analysis**, which involves predicting outcomes using a Gradient Boosting model (XGBoost). The project follows a structured approach to preprocess data, explore patterns, train the model, and generate predictions.
 
 ---
 
@@ -182,13 +182,13 @@ submission.to_csv("submission.csv", index=False)
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Poulami-Nandi/MentalHealth_XGB.git
    ```
 2. Install the required libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn xgboost scikit-learn
    ```
-3. Run the notebook file `solution.ipynb` in your Python environment (e.g., Jupyter Notebook, Google Colab).
+3. Run the notebook file `solution.ipynb` in your Python environment like Jupyter Notebook or Google Colab.
 
 ---
 
@@ -196,11 +196,7 @@ submission.to_csv("submission.csv", index=False)
 
 Feel free to reach out if you have any questions or suggestions:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
+- **Email**: [your-email@example.com](mailto:nandi.poulami91@gmail.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/poulami-nandi-a8a12917b/)
 
 ---
-
-### **Acknowledgments**
-
-This solution is part of the Kaggle competition **Playground Series - Season 4, Episode 11**. Special thanks to Kaggle for providing the dataset and platform for learning.
