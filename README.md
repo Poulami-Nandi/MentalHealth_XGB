@@ -74,9 +74,9 @@ Perform EDA to understand the dataset and uncover insights. Key steps include:
   import seaborn as sns
   import matplotlib.pyplot as plt
 
-  sns.countplot(train_data['target'])
+  sns.countplot(train_data['Depression'])
   plt.title("Target Variable Distribution")
-  plt.xlabel("Target")
+  plt.xlabel("Depression")
   plt.ylabel("Count")
   plt.show()
   ```
@@ -170,7 +170,7 @@ test_predictions = model.predict(test_data)
 # Create a submission file
 submission = pd.DataFrame({
     "Id": test_data.index,
-    "target": test_predictions
+    "Depression": test_predictions
 })
 
 submission.to_csv("submission.csv", index=False)
