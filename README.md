@@ -1,7 +1,7 @@
 
-# **Mental Health data analysis**
+# **Kaggle Playground Series - Season 4, Episode 11**
 
-This repository contains a solution for the Kaggle competition **Mental health data analysis**, which involves predicting outcomes using a Gradient Boosting model (XGBoost). The project follows a structured approach to preprocess data, explore patterns, train the model, and generate predictions.
+This repository contains a solution for the Kaggle competition **Playground Series - Season 4, Episode 11**, which involves predicting outcomes using a Gradient Boosting model (XGBoost). The project follows a structured approach to preprocess data, explore patterns, train the model, and generate predictions.
 
 ---
 
@@ -74,9 +74,9 @@ Perform EDA to understand the dataset and uncover insights. Key steps include:
   import seaborn as sns
   import matplotlib.pyplot as plt
 
-  sns.countplot(train_data['Depression'])
+  sns.countplot(train_data['target'])
   plt.title("Target Variable Distribution")
-  plt.xlabel("Depression")
+  plt.xlabel("Target")
   plt.ylabel("Count")
   plt.show()
   ```
@@ -170,7 +170,7 @@ test_predictions = model.predict(test_data)
 # Create a submission file
 submission = pd.DataFrame({
     "Id": test_data.index,
-    "Depression": test_predictions
+    "target": test_predictions
 })
 
 submission.to_csv("submission.csv", index=False)
@@ -182,13 +182,13 @@ submission.to_csv("submission.csv", index=False)
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Poulami-Nandi/MentalHealth_XGB.git
+   git clone https://github.com/your-username/your-repo-name.git
    ```
 2. Install the required libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn xgboost scikit-learn
    ```
-3. Run the notebook file `solution.ipynb` in your Python environment like Jupyter Notebook or Google Colab.
+3. Run the notebook file `solution.ipynb` in your Python environment (e.g., Jupyter Notebook, Google Colab).
 
 ---
 
@@ -196,7 +196,11 @@ submission.to_csv("submission.csv", index=False)
 
 Feel free to reach out if you have any questions or suggestions:
 
-- **Email**: [Dr. Poulami Nandi](mailto:nandi.poulami91@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/poulami-nandi-a8a12917b/)
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
 
 ---
+
+### **Acknowledgments**
+
+This solution is part of the Kaggle competition **Playground Series - Season 4, Episode 11**. Special thanks to Kaggle for providing the dataset and platform for learning.
